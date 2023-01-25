@@ -83,7 +83,7 @@ export default function Home() {
     {console.log(item.images[0])}
          
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-    <img src={item.images[0]} alt = {item.images[0]} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"/>
+    <img src={item.images[0]}  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"/>
         
         </div>
         
