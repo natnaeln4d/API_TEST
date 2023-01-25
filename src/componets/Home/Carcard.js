@@ -1,6 +1,10 @@
 import React from 'react'
+import { useEffect,useState } from 'react'
 
 export default function Carcard() {
+    const [isLoaded,setIsloaded]=useState(false);
+    const [error,setError]=useState(null);
+    const [items,setItems]=useState(null);
   return (
     <div>
 
